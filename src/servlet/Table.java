@@ -1,5 +1,5 @@
 package servlet;
-import lib.AddTable;
+//import lib.AddTable;
 import lib.TableImport;
 import lib.Variables;
 
@@ -24,25 +24,21 @@ public class Table extends HttpServlet {
 		response.setContentType("text/html");
 		//String TableName = null;
 		//String dato;
-	/*	String DirDB =  request.getParameter("PRUEBA");
-		String nameDB =  request.getParameter("PRUEBA2	");
-		String User = request.getParameter("variable");
-		String psswd =  request.getParameter("PRUEBA");*/
-		String TableName =  request.getParameter("TableName");
-		String ColumnName = request.getParameter("nameColumn");
 		String DBname = request.getParameter("DBname");
+		String TableName =  request.getParameter("TableName");
+		String ColumnName = request.getParameter("nameColumn");		
+		Variables.DBname(DBname);
 		Variables.NameTable(TableName);
 		Variables.NameColumn(ColumnName);
-		Variables.DBname(DBname);
-		//String ColumnName =  request.getParameter("nameColumn");
-		//Variables.NameColumn(ColumnName);
+		
+		
 		
 		PrintWriter out = response.getWriter();
 		out.println("<h1>" + TableName + "</h1>");
-		out.println("<h1>Prueba<//h1");
+		out.println("<h1><//h1");
 		try {
-			TableImport.createTable(TableName, DBname);
-			AddTable.columnName(TableName, ColumnName, DBname);
+			TableImport.createTable(TableName, DBname, ColumnName);
+			//AddTable.columnName(TableName, ColumnName, DBname);
 			out.println("<p> Succed!!! </p>");
 
 		} catch (SQLException e) {

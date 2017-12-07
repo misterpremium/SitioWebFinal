@@ -42,7 +42,7 @@ String DBname = request.getParameter("DBname");
 ok = ConnectSQL.Connect(DBname);
 out.println("<h1>" + ok + "</h1>");
 out.println("<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css\">");
-
+out.println("<a href=\"http://25.91.187.37:8080/SitioWebFinal/\">Volver al inicio</a>");
 }
 
 	public static void main(String[] args) {

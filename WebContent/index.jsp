@@ -25,7 +25,7 @@
             <a class="nav-link" href="http://25.91.187.37:8080/SitioWebFinal/docs/recoger.jsp"> Creación de tablas</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link"href="http://25.91.187.37:8080/SitioWebFinal/Logs" > Logs </a>
+            <a class="nav-link"href="http://25.91.187.37:8080/SitioWebFinal/log.jsp" > Logs </a>
           </li>
           <li class="nav-item active">
          	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresión </a> 
