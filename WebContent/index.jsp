@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="ISO-8859-1"%>
 <!--  0<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">-->
 <html>
@@ -22,10 +21,10 @@
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="http://25.91.187.37:8080/SitioWebFinal/docs/recoger.jsp"> Creación de tablas</a>
+            <a class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> Creación de tablas</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link"href="http://25.91.187.37:8080/SitioWebFinal/log.jsp" > Logs </a>
+            <a class="nav-link"href="/SitioWebFinal/log.jsp" > Logs </a>
           </li>
           <li class="nav-item active">
          	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresión </a> 
@@ -37,7 +36,7 @@
       </div>
     </nav>
 <div class="container">
-  	<img src="http://25.91.187.37:8082/" border="0" width="45%"/>
+  	<img src="http://90.94.201..6:8082/" border="0" width="45%"/>
 	<a href="mailto:danielpardomartin@gmail.com">administrador del portal</a>
 </div>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
