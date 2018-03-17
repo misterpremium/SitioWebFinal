@@ -8,15 +8,25 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 </head>
 <body>
-<form action="/SitioWebFinal/Table">
+<form action="http://raspberrypidpm.ddns.net/SitioWebFinal/Table" method="post">
 <p>Introducir nombre de DB</p>
-<input type="text" name="DBname" />
+<input type="text" name="DBname" list="DB">
 <p>Introducir nombre de tabla</p>
 
-<input type="text" name="TableName" />
+<datalist id="DB" required="required" >
+	<option value="employees"></option>
+	<option value="Hotel"></option>
+	<option value="hoteles"></option>
+</datalist>
+<input type="text" name="TableName" list="Tabla">
 <p>Introducir nombre columna</p>
-<input type="text" name="nameColumn" />
-<input type="submit" value="Enviar" />
+<datalist id="Tabla">
+	<option value="employees"></option>
+	<option value="salaries"></option>
+	
+</datalist>
+<input type="text" name="nameColumn">
+<input type="submit" value="Enviar">
 </form>
 <% String variable = request.getParameter("nameColumn"); %>
 <% String variable2 = request.getParameter("TableName"); %>
