@@ -39,7 +39,7 @@
     </nav>
 <div class="container">
   	<img src="http://90.94.201..6:8082/" border="0" width="45%" alt="no disponible"/>
-	<a target='_blank' style='font-weight: bold;font-size: 1.20em;' href="mailto:danielpardomartin@gmail.com">administrador del portal</a>
+	<a target='_blank' style='font-weight: bold;font-size: 1.20em;' href="mailto:misterpremium8@gmail.com">administrador del portal</a>
 </div>
 <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="daniel-pardo-martín"><a class="LI-simple-link" href='https://es.linkedin.com/in/daniel-pardo-mart%C3%ADn?trk=profile-badge'>Daniel Pardo Martín</a></div>
 
