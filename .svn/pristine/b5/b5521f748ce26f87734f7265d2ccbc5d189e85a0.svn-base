@@ -1,0 +1,29 @@
+0000000000000000000000000000000000000000 c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512658927 +0100	commit (initial): Initial commit
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512660493 +0100	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512660497 +0100	checkout: moving from slave to master
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512660499 +0100	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512660503 +0100	checkout: moving from slave to master
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512660505 +0100	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512663920 +0100	checkout: moving from slave to master
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512663923 +0100	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1512663939 +0100	checkout: moving from slave to master
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb 53107e10e3a191c965beb9ea158e887f50e544f0 misterpremium <simbacat@hotmail.es> 1512664032 +0100	commit: 20171207
+53107e10e3a191c965beb9ea158e887f50e544f0 30d235783493088fe391cc249036854535323c94 misterpremium <simbacat@hotmail.es> 1513942107 +0100	commit: v3
+30d235783493088fe391cc249036854535323c94 98a4870e7f444100c421c4e19ebe4310fb863ecb misterpremium <simbacat@hotmail.es> 1514494527 +0100	commit: Cambio en las librerias
+98a4870e7f444100c421c4e19ebe4310fb863ecb 319cbce67dcd8148f5025cadd2ed1802caef22c8 misterpremium <simbacat@hotmail.es> 1521245874 +0100	commit: v3.1
+319cbce67dcd8148f5025cadd2ed1802caef22c8 c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1521245937 +0100	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb 319cbce67dcd8148f5025cadd2ed1802caef22c8 misterpremium <simbacat@hotmail.es> 1521245946 +0100	checkout: moving from slave to master
+319cbce67dcd8148f5025cadd2ed1802caef22c8 27f6577f463b6a12d1fcea5684569859e85d2299 misterpremium <simbacat@hotmail.es> 1522761835 +0200	commit: Se cambian direcciones de correo
+27f6577f463b6a12d1fcea5684569859e85d2299 8eb9c029c5ba73771f7b1c89d18d8d5cf1ab60fd misterpremium <simbacat@hotmail.es> 1523030047 +0200	commit: Se añade el descriptor web.xml
+8eb9c029c5ba73771f7b1c89d18d8d5cf1ab60fd 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523031675 +0200	commit: web.xml añadido
+247c14dc43bcc3c878002779e37d0b8b4992bc08 c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1523367437 +0200	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523367441 +0200	checkout: moving from slave to master
+247c14dc43bcc3c878002779e37d0b8b4992bc08 c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1523387423 +0200	checkout: moving from master to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523387425 +0200	checkout: moving from slave to master
+247c14dc43bcc3c878002779e37d0b8b4992bc08 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523387606 +0200	checkout: moving from master to v2
+247c14dc43bcc3c878002779e37d0b8b4992bc08 c8548cc19f4461d13d06b65bb0b442d583fa9cbb misterpremium <simbacat@hotmail.es> 1523387610 +0200	checkout: moving from v2 to slave
+c8548cc19f4461d13d06b65bb0b442d583fa9cbb 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523387613 +0200	checkout: moving from slave to v2
+247c14dc43bcc3c878002779e37d0b8b4992bc08 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523387621 +0200	checkout: moving from v2 to master
+247c14dc43bcc3c878002779e37d0b8b4992bc08 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523387623 +0200	checkout: moving from master to v2
+247c14dc43bcc3c878002779e37d0b8b4992bc08 247c14dc43bcc3c878002779e37d0b8b4992bc08 misterpremium <simbacat@hotmail.es> 1523387627 +0200	checkout: moving from v2 to master
+247c14dc43bcc3c878002779e37d0b8b4992bc08 e5e562fc58b9be1e054dc7afdc855f035b1a6071 misterpremium <simbacat@hotmail.es> 1523544166 +0200	commit: Modifiacion etiqueta video
