@@ -7,6 +7,7 @@
 <title>LOG</title>
 </head>
 <body>
+<p></p>
 <p>Introducir nombre de Base de Datos</p>
 <form action="/SitioWebFinal/Logs">
 <input type="text" name="DBname" />
