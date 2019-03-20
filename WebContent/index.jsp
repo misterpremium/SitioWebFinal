@@ -19,17 +19,17 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+<p>test jenkins</p>
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a  class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> Creación de tablas</a>
+            <a  class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> CreaciÃ³n de tablas</a>
           </li>
           <li class="nav-item active">
             <a  class="nav-link"href="/SitioWebFinal/log.jsp" > Logs </a>
           </li>
           <li class="nav-item active">
-         	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresión </a> 
+         	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresiÃ³n </a> 
           </li>
         </ul>
         <form class="form-inline my-2 my-md-0">
@@ -41,7 +41,7 @@
   	<img src="http://90.94.201..6:8082/" border="0" width="45%" alt="no disponible"/>
 	<a target='_blank' style='font-weight: bold;font-size: 1.20em;' href="mailto:misterpremium8@gmail.com">administrador del portal</a>
 </div>
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="daniel-pardo-martín"><a class="LI-simple-link" href='https://es.linkedin.com/in/daniel-pardo-mart%C3%ADn?trk=profile-badge'>Daniel Pardo Martín</a></div>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="daniel-pardo-martÃ­n"><a class="LI-simple-link" href='https://es.linkedin.com/in/daniel-pardo-mart%C3%ADn?trk=profile-badge'>Daniel Pardo MartÃ­n</a></div>
 
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
