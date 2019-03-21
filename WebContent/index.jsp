@@ -19,17 +19,17 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
+<p>test jenkins4</p>
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a  class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> Creación de tablas</a>
+            <a  class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> CreaciÃ³n de tablas</a>
           </li>
           <li class="nav-item active">
             <a  class="nav-link"href="/SitioWebFinal/log.jsp" > Logs </a>
           </li>
           <li class="nav-item active">
-         	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresión </a> 
+         	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresiÃ³n </a> 
           </li>
         </ul>
         <form class="form-inline my-2 my-md-0">
@@ -42,7 +42,7 @@
 	<a target='_blank' style='font-weight: bold;font-size: 1.20em;' href="mailto:misterpremium8@gmail.com">administrador del portal</a>
   <a href="https://info.flagcounter.com/VhtH"><img src="https://s04.flagcounter.com/countxl/VhtH/bg_0D0D0D/txt_147AFF/border_CC1A06/columns_8/maxflags_20/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
 </div>
-<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="daniel-pardo-martín"><a class="LI-simple-link" href='https://es.linkedin.com/in/daniel-pardo-mart%C3%ADn?trk=profile-badge'>Daniel Pardo Martín</a></div>
+<div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="es_ES" data-type="vertical" data-theme="dark" data-vanity="daniel-pardo-martÃ­n"><a class="LI-simple-link" href='https://es.linkedin.com/in/daniel-pardo-mart%C3%ADn?trk=profile-badge'>Daniel Pardo MartÃ­n</a></div>
 
 
 <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
