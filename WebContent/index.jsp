@@ -19,7 +19,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample02" aria-controls="navbarsExample02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-<p>test jenkins13</p>
+
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
@@ -37,6 +37,7 @@
         </form>
       </div>
     </nav>
+    <p>test jenkins 14</p>
 <div class="container">
   	<img src="http://90.94.201..6:8082/" border="0" width="45%" alt="no disponible"/>
 	<a target='_blank' style='font-weight: bold;font-size: 1.20em;' href="mailto:misterpremium8@gmail.com">administrador del portal</a>
