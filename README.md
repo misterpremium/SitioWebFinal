@@ -1,6 +1,6 @@
 # SitioWebFinal
 
-This is a web applicatiom make on java.
+This is a web application make on java.
 
 To see the result checkou this url
 
