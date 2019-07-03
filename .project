@@ -3,7 +3,6 @@
 	<name>SitioWebFinal</name>
 	<comment></comment>
 	<projects>
-		<project>SQLpref</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
