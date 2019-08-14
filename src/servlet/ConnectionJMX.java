@@ -33,7 +33,6 @@ public class ConnectionJMX extends HttpServlet {
 		
 		//test
 		
-		
 		ProcessBuilder builder = new ProcessBuilder("java", "-jar", "AMQ.jar");		
 		Process proces = builder.start();
 		response.setContentType("text/html");
