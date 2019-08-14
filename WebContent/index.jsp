@@ -23,13 +23,16 @@
       <div class="collapse navbar-collapse" id="navbarsExample02">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a  class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> CreaciÃ³n de tablas</a>
+            <a  class="nav-link" href="/SitioWebFinal/docs/recoger.jsp"> Creación de tablas</a>
           </li>
           <li class="nav-item active">
             <a  class="nav-link"href="/SitioWebFinal/log.jsp" > Logs </a>
           </li>
           <li class="nav-item active">
-         	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresiÃ³n </a> 
+         	<a  class="nav-link" href="https://192.168.1.100:631/"> Servicio de impresión </a> 
+          </li>
+          <li class="nav-item active">
+         	<a  class="nav-link" href="/SitioWebFinal/docs/connection.jsp"> JMX </a> 
           </li>
         </ul>
         <form class="form-inline my-2 my-md-0">
