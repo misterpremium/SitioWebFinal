@@ -31,7 +31,7 @@ public class ConnectionJMX extends HttpServlet {
 		// TODO Auto-generated method stub
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		
-		//test v2
+		//test v3
 		
 		ProcessBuilder builder = new ProcessBuilder("java", "-jar", "AMQ.jar");		
 		Process proces = builder.start();
