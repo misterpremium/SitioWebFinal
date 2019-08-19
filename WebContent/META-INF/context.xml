@@ -1,2 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Context path=""/>
+<Context antiJARLocking="true">
+        <Resource
+            name="jms/ConnectionFactory"
+            auth="Container"
+            type="org.apache.activemq.ActiveMQConnectionFactory"
+            description="JMS Connection Factory"
+            factory="org.apache.activemq.jndi.JNDIReferenceFactory"
+            brokerURL="tcp://192.168.1.60:61616"
+            brokerName="LocalActiveMQBroker"
+            useEmbeddedBroker="false"/>
+
+        <Resource name="jms/topic"
+            auth="Container"
+            type="org.apache.activemq.command.ActiveMQTopic"
+            factory="org.apache.activemq.jndi.JNDIReferenceFactory"
+            physicalName="APP.JMS.TOPIC"/>
+        <Resource name="jms/Queue"
+            auth="Container"
+            type="org.apache.activemq.command.ActiveMQQueue"
+            factory="org.apache.activemq.jndi.JNDIReferenceFactory"
+            physicalName="APP.JMS.QUEUE"/>
+              <jndi:jndi-lookup jndi-name="jms/ConnectionFactory"
+  id="connectionFactory" expected-type="javax.jms.ConnectionFactory">
+    <jndi:environment>
+      java.naming.provider.url=${java.naming.provider.url}
+      java.naming.factory.url.pkgs=${java.naming.factory.url.pkgs}
+      java.naming.factory.initial=${java.naming.factory.initial}
+    </jndi:environment>
+</jndi:jndi-lookup>
+    </Context>
