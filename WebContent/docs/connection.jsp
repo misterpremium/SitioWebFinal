@@ -13,7 +13,7 @@
 <input type="submit" value="Conectar" />
 </form>
 <form action="/SitioWebFinal/reciverJMX">
-<input type="submit" value="Recivir" />
+<input type="submit" value="Recibir" />
 </form>
 
 
