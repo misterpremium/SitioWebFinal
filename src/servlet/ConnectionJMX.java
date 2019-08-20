@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 //import java.lang.reflect.*;  
 import javax.jms.JMSException;
-import amqlib.Main;
+import amqlib.*;
 
 
 
@@ -86,9 +86,16 @@ public class ConnectionJMX extends HttpServlet {
 		//Main test = new Main();
 	//	Main.ejecutarCola(saludo, despedida);
 		System.out.println("test linea 38 antes Main.ejecutarCola");
-		out.println("<h1> Test linea 39 </h1>");
+		
 		try {
-			Main.ejecutarCola(saludo, despedida);
+			out.println("<h1> Test linea 39 </h1>");
+			
+			Producctor p = new Producctor();
+		      
+			p.enviaMensajeCola(saludo);
+	        p.enviaMensajeCola(despedida);
+			/*Producctor.enviaMensajeCola(saludo);
+			Producctor.enviaMensajeCola(despedida);*/
 		} catch (JMSException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -104,7 +111,7 @@ public class ConnectionJMX extends HttpServlet {
 		
 		//out.println("<h1>" + proces + "</h1>");
 		
-		
+		out.println("<h1>End</h1>");
 		
 	}
 	/**
