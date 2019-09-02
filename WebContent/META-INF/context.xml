@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Context name="/SitioWebFinal" antiJARLocking="true">
         <Resource
-            name="jms/ConnectionFactory"
+            name="jms/fabrica"
             auth="Container"
             type="org.apache.activemq.ActiveMQConnectionFactory"
             description="JMS Connection Factory"
