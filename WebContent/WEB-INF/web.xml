@@ -9,6 +9,14 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  
       <distributable/>
   
+  <resource-ref>
+    <description>ConnectionFactory</description>
+    <res-ref-name>jms/fabrica</res-ref-name>
+    <res-type>org.apache.activemq.ActiveMQConnectionFactory</res-type>
+    <res-auth>Container</res-auth>
+    <lookup-name>java:env/jms/fabrica</lookup-name>
+  </resource-ref>
 </web-app>
