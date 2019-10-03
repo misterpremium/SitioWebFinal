@@ -6,7 +6,7 @@
             type="org.apache.activemq.ActiveMQConnectionFactory"
             description="JMS Connection Factory"
             factory="org.apache.activemq.jndi.JNDIReferenceFactory"
-            brokerURL="tcp://192.168.1.:61616"
+            brokerURL="tcp://192.168.1.75:61616"
             brokerName="ActiveMQBroker"
             useEmbeddedBroker="false"/>
 
