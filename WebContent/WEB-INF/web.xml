@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
-  <display-name>SitioWebFinal</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
-  
-      <distributable/>
-  
-  <resource-ref>
-    <description>ConnectionFactory</description>
-    <res-ref-name>jms/fabrica</res-ref-name>
-    <res-type>org.apache.activemq.ActiveMQConnectionFactory</res-type>
-    <res-auth>Container</res-auth>
-    <lookup-name>java:jboss/exported/jms/fabrica</lookup-name>
-  </resource-ref>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+ <display-name>SitioWebFinal</display-name>
+ <distributable/>
+ <welcome-file-list>
+  <welcome-file>index.html</welcome-file>
+  <welcome-file>index.htm</welcome-file>
+  <welcome-file>index.jsp</welcome-file>
+  <welcome-file>default.html</welcome-file>
+  <welcome-file>default.htm</welcome-file>
+  <welcome-file>default.jsp</welcome-file>
+ </welcome-file-list>
+ <resource-ref>
+  <description>ConnectionFactory</description>
+  <res-ref-name>jms/fabrica</res-ref-name>
+  <res-type>org.apache.activemq.ActiveMQConnectionFactory</res-type>
+  <res-auth>Container</res-auth>
+  <lookup-name>java:jboss/exported/jms/fabrica</lookup-name>
+ </resource-ref>
+ <resource-ref>
+  <res-ref-name>jms/queue</res-ref-name>
+  <res-type>java.awt.Queue</res-type>
+  <res-auth>Container</res-auth>
+  <lookup-name>java:jboss/exported/jms/queue</lookup-name>
+ </resource-ref>
 </web-app>
