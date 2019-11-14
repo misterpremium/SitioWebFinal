@@ -17,6 +17,6 @@
     <res-ref-name>jms/fabrica</res-ref-name>
     <res-type>org.apache.activemq.ActiveMQConnectionFactory</res-type>
     <res-auth>Container</res-auth>
-    <lookup-name>java:env/jms/fabrica</lookup-name>
+    <lookup-name>java:jboss/exported/jms/fabrica</lookup-name>
   </resource-ref>
 </web-app>
